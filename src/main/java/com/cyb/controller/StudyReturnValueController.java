@@ -41,7 +41,7 @@ public class StudyReturnValueController {
 		ModelAndView mav = new ModelAndView();
 		System.out.println("Received request to show inner jsp page of  web root  jsp");
 		mav.addObject("ret", "attributeValue");	
-		mav.setViewName("/jsp/jspinner/jspinner");
+		mav.setViewName("/to/show");
 		return mav;
 	}
 	
