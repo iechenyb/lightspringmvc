@@ -17,7 +17,7 @@ public class WebListener implements ServletContextListener {
 
     public void contextInitialized(ServletContextEvent sce)  { 
     	try {
-    		H2Manager.start();
+    		/*H2Manager.start();*/
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -25,8 +25,8 @@ public class WebListener implements ServletContextListener {
 
     public void contextDestroyed(ServletContextEvent sce)  { 
     	try {
-    		H2Manager.stop();
-    		H2Manager.shutdown();
+    		/*H2Manager.stop();
+    		H2Manager.shutdown();*/
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
