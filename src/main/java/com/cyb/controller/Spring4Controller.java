@@ -27,7 +27,7 @@ import com.cyb.po.User;
 //http://localhost:8088/springmvc/test.php
 /**
  * 路径spring4在请求里边不用写
- * @author DHUser
+ * @author DHUser 
  *
  */
 @RestController("spring4") 
