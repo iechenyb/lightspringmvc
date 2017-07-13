@@ -268,11 +268,11 @@
 			<classifier>jdk15</classifier>
 		</dependency>
 		<!-- xstream xml -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
 			<version>${xstream.version}</version>
-		</dependency>
+		</dependency> -->
 		
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -304,12 +304,12 @@
 			<version>3.2.3</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>axis</groupId>
 			<artifactId>axis-saaj</artifactId>
 			<version>1.3</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		
 		<dependency>
 			<groupId>org.apache.ant</groupId>
@@ -337,11 +337,11 @@
 			<artifactId>commons-dbutils</artifactId>
 			<version>1.6</version>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.github.abel533</groupId>
 			<artifactId>ECharts</artifactId>
 			<version>2.1.8</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
@@ -355,16 +355,16 @@
 			<version>4.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.quartz-scheduler</groupId>
 			<artifactId>quartz</artifactId>
 			<version>1.8.6</version>
-		</dependency>
-		<dependency>
+		</dependency> -->
+		<!-- <dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-pool</artifactId>
 			<version>5.13.3</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.atomikos</groupId>
 			<artifactId>transactions-jdbc</artifactId>
@@ -372,16 +372,7 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-core</artifactId>
-			<version>2.3.30</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-spring-plugin</artifactId>
-			<version>2.5.2</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
@@ -434,22 +425,8 @@
 		</dependency>
 		<!-- webservice -->
 		<!-- seo -->
-		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-core</artifactId>
-			<version>5.3.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-queryparser</artifactId>
-			<version>5.3.1</version>
-		</dependency>
+		
 		<!-- seo -->
-		<dependency>
-			<groupId>org.apache.zookeeper</groupId>
-			<artifactId>zookeeper</artifactId>
-			<version>3.4.6</version>
-		</dependency>
 		<!-- rest api -->
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
@@ -476,11 +453,6 @@
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-client</artifactId>
 			<version>1.17.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>1.3.171</version>
 		</dependency>
 	</dependencies>
 		<build>

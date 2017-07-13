@@ -3,8 +3,6 @@ package com.cyb.listener;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
-import com.cyb.h2.H2Manager;
-
 /**
  * 
  * 功能描述：
