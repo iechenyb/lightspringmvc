@@ -29,6 +29,11 @@
 		                <value>application/json;charset=utf-8</value>  
 		            </list> 
 		         </property>  
+		         <!-- 配置 objectMapper 为我们自定义扩展后的 CustomMapper -->
+	            <property name="objectMapper">
+	                <bean class="com.cyb.utils.CustomMapper">
+	                </bean>
+	            </property>
 		    </bean>  		
 		</list>
 	</property>
