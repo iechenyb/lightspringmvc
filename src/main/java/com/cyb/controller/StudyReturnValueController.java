@@ -7,7 +7,6 @@ import java.util.Map;
 
 import net.sf.json.JSONArray;
 
-import org.codehaus.jackson.map.annotate.JsonSerialize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,9 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.cyb.po.User;
 import com.cyb.utils.CustomMapper;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * 返回值测试，包括返回页面、返回集合信息、json以及普通的类型值。
  * @author DHUser
