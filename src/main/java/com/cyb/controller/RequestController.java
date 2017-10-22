@@ -31,6 +31,8 @@ public class RequestController {
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request,String name) {
 		request.getSession().setAttribute("userName", name);
+		request.getSession().setAttribute("userName2", name);
+		request.getSession().setAttribute("userName3", name);
 		return "login success ,your name is "+name;
 	}
 	@ResponseBody // 返回string的时候，必须加 @responseBody注解
