@@ -28,7 +28,7 @@ public class RequestController {
 		return sb.toString();
 	}
 	
-	@RequestMapping("/login11111")
+	@RequestMapping("/mylogin")
 	public String login(HttpServletRequest request,String name) {
 		request.getSession().setAttribute("userName", name);
 		request.getSession().setAttribute("userName2", name);

@@ -47,6 +47,7 @@ public class CookieController {
         cookie.setPath("/");  
         System.out.println("已添加===============");  
         response.addCookie(cookie);  
+        response.addHeader("myname", "iechenyb");
     }  
     /**  
      * 修改cookie  
