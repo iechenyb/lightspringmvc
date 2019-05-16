@@ -29,5 +29,13 @@
         <property name="timeout" value="${redis.timeout}"/>
         <property name="poolConfig" ref="poolConfig"></property>
     </bean> 
+    
+   <!--  <bean id="defaultCookieSerializer" class="com.test.DefaultCookieSerializer" />
+    <bean class="org.springframework.session.web.http.CookieHttpSessionStrategy">
+        <property name="cookieSerializer" ref="defaultCookieSerializer" />
+    </bean>
+    <bean class="org.springframework.session.config.annotation.web.http.SpringHttpSessionConfiguration">
+        <property name="cookieSerializer" ref="defaultCookieSerializer" />
+    </bean> -->
 	
 </beans>

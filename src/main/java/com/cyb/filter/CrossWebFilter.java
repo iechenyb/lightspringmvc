@@ -36,7 +36,7 @@ public class CrossWebFilter implements Filter {
 		 HttpServletResponse resp = (HttpServletResponse) response;
 		 resp.addHeader("Access-Control-Allow-Origin", "*"); 
 		 // 如果存在自定义的header参数，需要在此处添加，逗号分隔 
-		 resp.addHeader( "Access-Control-Allow-Headers", "Origin, No-Cache, X-Requested-With, " + "If-Modified-Since, Pragma, Last-Modified, Cache-Control, Expires, " + "Content-Type, X-E4M-With"); 
+		 resp.addHeader( "Access-Control-Allow-Headers", "Origin, No-Cache, X-Requested-With, " + "If-Modified-Since, Pragma, Last-Modified, Cache-Control,Accept, Expires, " + "Content-Type, X-E4M-With"); 
 		 resp.addHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
 		 chain.doFilter(request, response);
 	}

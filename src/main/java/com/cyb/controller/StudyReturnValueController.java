@@ -131,8 +131,18 @@ public class StudyReturnValueController {
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
 	public User user() {
 		User user = new User();
-		user.setName("");
+		user.setName("chenyb");
 		user.setPassword(null);
+		user.setId("1");
+		return user;
+	}
+	
+	@ResponseBody   //返回string的时候，必须加  @responseBody注解
+	@RequestMapping(value = "/userp", method = RequestMethod.POST)
+	public User userPost() {
+		User user = new User();
+		user.setName("liuzong");
+		user.setPassword("sfsfsdfs");
 		user.setId("1");
 		return user;
 	}
